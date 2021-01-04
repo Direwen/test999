@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Advanced Search</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="../style.css">
+<!-- this is for css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- this is for javsacript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!--font awesome -->
+
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+<!-- start container-fluid -->
+<div class="container-fluid">
+	
+	<!-- start container-links -->
+	<div class="nav-container">
+
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" alt="google logo">
+
+		<div class="container-links-adv">
+			<a href="../index.html" id="adv-links">Go Back</a>
+		</div>
+	</div>
+	<!-- end container links -->
+
+<!-- start title container -->
+	<div class="title">
+		Advanced Search
+
+	</div>
+	
+<!-- end title-container -->
+
+<!-- start left column form -->
+	<form action="https://www.google.com/search" method="get">
+  <div class="form-group">
+  	<div class="second-title">Find pages with...
+  		<span>To do this in the search box.</span>
+  	</div>
+  
+  <!-- start main row  id="each-row"-->
+<div class="row" id="each-row">
+
+	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-1" id="label-name">
+    	<label for="" >
+    	 	all these words:
+
+		</label>
+	</div>
+
+	<!-- start input container -->
+     <div class="col-lg-6 col-md-9 col-sm-9 col-xs-11" id="input-container">
+    			
+	     <input type="text" class="form-control"  id="input-adv" 
+	     placeholder="" name="as_q">
+    	
+    </div>
+    <!-- end input container -->
+
+
+    <div class="col-lg-4" id="side-note">
+    	<span>Type the important words: tri-colour rat terrier</span>
+    </div>
+
+</div>
+<!-- end main row  id="each-row"-->
+
+<div class="row" id="each-row">
+
+	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-1" id="label-name">
+    	<label for="" >
+    	 	this exact word or phrase:
+		</label>
+	</div>
+
+	<!-- start input container -->
+     <div class="col-lg-6 col-md-9 col-sm-9 col-xs-11" id="input-container">
+    			
+	     <input type="text" class="form-control"  id="input-adv" 
+	     placeholder="" name="as_epq">
+    	
+    </div>
+    <!-- end input container -->
+
+
+    <div class="col-lg-4" id="side-note">
+    	<span>Put exact words in quotes: "rat terrier"
+</span>
+    </div>
+
+</div>
+<!-- end main row  id="each-row"-->
+
+<div class="row" id="each-row">
+
+	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-1" id="label-name">
+    	<label for="staticEmail" >
+    	 	any of these words:
+		</label>
+	</div>
+
+	<!-- start input container -->
+     <div class="col-lg-6 col-md-9 col-sm-9 col-xs-11" id="input-container">
+    			
+	     <input type="text" class="form-control"  id="input-adv" 
+	     placeholder="" name="as_oq">
+    	
+    </div>
+    <!-- end input container -->
+
+
+    <div class="col-lg-4" id="side-note">
+    	<span>Type OR between all the words you want: miniature OR standard
+</span>
+    </div>
+
+</div>
+<!-- end main row  id="each-row"-->
+
+<div class="row" id="each-row">
+
+	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-1" id="label-name">
+    	<label for="staticEmail" >
+    	 	none of these words:
+		</label>
+	</div>
+
+	<!-- start input container -->
+     <div class="col-lg-6 col-md-9 col-sm-9 col-xs-11" id="input-container">
+    			
+	     <input type="text" class="form-control"  id="input-adv" 
+	     placeholder="" name="as_eq">
+    	
+    </div>
+    <!-- end input container -->
+
+
+    <div class="col-lg-4" id="side-note">
+    	<span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+</span>
+    </div>
+
+</div>
+<!-- end main row  id="each-row"-->
+
+ 
+ 	<!-- <div id="advbtn-container"> -->
+ 		<input type="submit" value="Advanced Search" id="advbtn">
+ 	<!-- </div>	 -->
+ 
+ 
+
+
+</div> <!-- form -->
+</form> 
+<!-- end left column form -->
+
+
+<!-- start right column form -->
+	
+<!-- end right column form -->
+
+
+</div>
+<!-- end container-fluid -->
+
+</body>
+</html>
+
+
+<!-- https://www.google.com/search?as_q=naruto+kagebushina+justsu&as_epq=justsu&as_oq=naruto&as_eq=sakura&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&tbs= -->
+
+<!-- as_q=naruto+kagebushina+justsu
+
+as_epq=justsu
+
+as_oq=naruto
+
+as_eq=sakura , as_nlo= VALUE -->
